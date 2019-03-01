@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="user_welcome_message">Hello World</string>
+    <string name="app_feature_latest_posts">Last Posts</string>
+    <string name="app_feature_user_profile">User Profile</string>
+    <string name="app_feature_fashion">FashionStore</string>
+    <string name="app_feature_music_player">Music Player</string>
+    <string name="app_feature_video_player">Video Player</string>
+    <string name="app_feature_login">Login to account</string>
+</resources>

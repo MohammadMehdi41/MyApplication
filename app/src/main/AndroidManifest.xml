@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:label="App"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.ProfileActivity"
+            android:label="اطلاعات کاربری"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".view.activity.PostsActivity"
+            android:label="آخرین پست ها"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.BotickActivity"
+            android:label="بوتیک"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.WeatherSampleActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.activity.PostActivity" />
+        <activity
+            android:name=".animations.AnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".animations.AnimationsMainActivity"
+            android:label="@string/animations_main_activity_toolbar_title"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.activity.VideoPlayerActivity" />
+        <activity android:name=".view.activity.MusicPlayerActivity"></activity>
+    </application>
+
+</manifest>

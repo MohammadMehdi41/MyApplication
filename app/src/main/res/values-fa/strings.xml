@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">7Learn</string>
+    <string name="user_welcome_message">Hello World</string>
+    <string name="app_feature_latest_posts">لیست آخرین پست ها</string>
+    <string name="app_feature_user_profile">پروفایل کاربر</string>
+    <string name="app_feature_fashion">فروشگاه لباس</string>
+    <string name="app_feature_music_player">موزیک پلیر</string>
+    <string name="app_feature_video_player">ویدیو پلیر</string>
+    <string name="app_feature_login">ورود به حساب کاربری</string>
+</resources>
